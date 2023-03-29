@@ -20,10 +20,11 @@ spring:
     timeout: 300ms # 连接超时时间（毫秒）
 
 minio:
-  endpoint: http://localhost:9000 #MinIO服务所在地址
-  bucketName: mall #存储桶名称
-  accessKey: minioadmin #访问的key
-  secretKey: minioadmin #访问的秘钥
+  #  endpoint: http://192.168.3.101:9090 #MinIO服务所在地址
+  endpoint: http://47.110.132.67:9000 #MinIO服务所在地址--maicai
+  bucketName: maicaibangmall #存储桶名称
+  accessKey: fileadmin #访问的key
+  secretKey: fileadmin123 #访问的秘钥
 
 logging:
   level:
